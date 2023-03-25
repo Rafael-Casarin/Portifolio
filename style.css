@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+ body {
+    font-size: 100%;
+    background: rgb(9,218,255);
+background: linear-gradient(90deg, rgba(9,218,255,1) 0%, rgba(0,161,189,1) 50%, rgba(1,96,112,1) 100%);
+}
+
+ .cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32px;
+ } 
+
+.cabecalho-logo {
+    height: 62px;
+}
+
+.cabecalho-menu  {
+    display: flex;
+    gap: 30px;
+}
+ 
+.cabecalho-menu-item {
+    font-family: 'Alkatra', cursive;
+    color: #000;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.conteudo {
+    margin-bottom: 24px;
+    border-top: 0.4px solid #fff;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px; 
+
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Tilt Neon';
+    font-weight: 400;
+    font-size: 32px;
+    color: #000;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Tilt Neon';
+    font-weight: 400;
+    font-size: 64px;
+    color: #000;
+
+}
+
+.conteudo-principal-emoji {
+    height: 430px;
+}
+
+.corpo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.corpo-secundario-titulo {
+    border-top: 0.4px solid #fff;
+    padding-top: 48px;
+    font-family: 'Tilt Neon';
+    font-weight: 400;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.corpo-secundario-sobre {
+    font-family: 'Alkatra', cursive;
+    font-weight: 300;
+    font-size: 24px;
+
+}
+
+.roda-pe {
+    padding: 3%;
+    border-top: 0.4px solid #fff;
+}
+
+.roda-pe-contato {
+    font-family: 'Tilt Neon';
+    font-weight: 400;
+    font-size: 32px;
+    color: #000;
+    display: block;
+    margin: 0 auto;
+}
+
+ 
+
+
+
+ 
